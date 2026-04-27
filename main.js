@@ -1,6 +1,6 @@
-// -----------------------------------
+
 //  TRADUCTIONS — FR / IT / EN
-// -----------------------------------
+
 const translations = {
   fr: {
     "nav.about":       "À propos",
@@ -9,7 +9,7 @@ const translations = {
     "nav.formation":   "Formation",
     "nav.contact":     "Contact",
 
-    "hero.title":      "Bonjour, je suis<br /><em>Votre Prénom</em>",
+    "hero.title":      "Bonjour, je suis<br /><em>Frédéric Franchir</em>",
     "hero.desc":       "Étudiant passionné en architecture de solutions web, je conçois des applications robustes et scalables qui répondent aux vrais besoins des utilisateurs et des entreprises.",
     "hero.cta1":       "Voir mes projets",
     "hero.cta2":       "Me contacter",
@@ -41,15 +41,15 @@ const translations = {
 
     "formation.label":   "Formation",
     "formation.title":   "Mon parcours",
-    "formation.date1":   "2023 — En cours",
-    "formation.school1": "Nom de ton école / université · Ville",
+    "formation.date1":   "2026 — En cours",
+    "formation.school1": "ITS ICT PIEMONTE · Torino",
     "formation.desc1":   "Formation approfondie en architecture de solutions web, conception de systèmes distribués, gestion de projets et développement full-stack. Projet de fin d'études : G-360.",
-    "formation.degree2": "BTS / Licence — à personnaliser",
-    "formation.school2": "Nom de l'établissement · Ville",
-    "formation.desc2":   "Formation initiale en informatique. Acquisition des fondamentaux du développement web, de la programmation orientée objet et des bases de données.",
-    "formation.degree3": "Baccalauréat — à personnaliser",
-    "formation.school3": "Lycée · Ville",
-    "formation.desc3":   "Mention : à indiquer. Série : à indiquer.",
+    "formation.degree2": "Licence en Informatique appliquée à la Gestion des Entreprises",
+    "formation.school2": "ISM · Dakar",
+    "formation.desc2":   "Formation polyvalente couvrant les fondamentaux de l'informatique, la gestion de projets, les systèmes d'information et les bases de données, avec une approche orientée vers les besoins des entreprises.",
+    "formation.degree3": "Baccalauréat en sciences mathématiques",
+    "formation.school3": "CL-PN · Pointe-Noire",
+    "formation.desc3":   "Mention : Passable. Série : C.",
 
     "contact.label":    "Contact",
     "contact.title":    "Travaillons ensemble",
@@ -74,7 +74,7 @@ const translations = {
     "nav.formation":   "Formazione",
     "nav.contact":     "Contatto",
 
-    "hero.title":      "Ciao, sono<br /><em>Il tuo Nome</em>",
+    "hero.title":      "Ciao, sono<br /><em>Frédéric Franchir</em>",
     "hero.desc":       "Studente appassionato di architettura di soluzioni web, progetto applicazioni robuste e scalabili che rispondono ai veri bisogni degli utenti e delle aziende.",
     "hero.cta1":       "Vedi i miei progetti",
     "hero.cta2":       "Contattami",
@@ -106,15 +106,15 @@ const translations = {
 
     "formation.label":   "Formazione",
     "formation.title":   "Il mio percorso",
-    "formation.date1":   "2023 — In corso",
-    "formation.school1": "Nome della scuola / università · Città",
+    "formation.date1":   "2026 — In corso",
+    "formation.school1": "ITS ICT PIEMONTE · Torino",
     "formation.desc1":   "Formazione approfondita in architettura di soluzioni web, progettazione di sistemi distribuiti, gestione di progetti e sviluppo full-stack. Progetto finale: G-360.",
-    "formation.degree2": "Laurea triennale / BTS — da personalizzare",
-    "formation.school2": "Nome dell'istituto · Città",
-    "formation.desc2":   "Formazione di base in informatica. Acquisizione dei fondamentali dello sviluppo web, della programmazione orientata agli oggetti e dei database.",
-    "formation.degree3": "Diploma — da personalizzare",
-    "formation.school3": "Liceo · Città",
-    "formation.desc3":   "Voto: da indicare. Indirizzo: da indicare.",
+    "formation.degree2": "Laurea in Informatica applicata alla Gestione Aziendale",
+    "formation.school2": "ISM · Dakar",
+    "formation.desc2":   "Formazione polivalente che copre i fondamentali dell'informatica, la gestione dei progetti, i sistemi informativi e i database, con un approccio orientato alle esigenze aziendali.",
+    "formation.degree3": "Diploma in scienze matematiche",
+    "formation.school3": "CL-PN · Pointe-Noire",
+    "formation.desc3":   "Voto: Sufficiente. Indirizzo: C.",
 
     "contact.label":    "Contatto",
     "contact.title":    "Lavoriamo insieme",
@@ -139,7 +139,7 @@ const translations = {
     "nav.formation":   "Education",
     "nav.contact":     "Contact",
 
-    "hero.title":      "Hello, I'm<br /><em>Your Name</em>",
+    "hero.title":      "Hello, I'm<br /><em>Frédéric Franchir</em>",
     "hero.desc":       "Passionate student in web solution architecture, I design robust and scalable applications that address the real needs of users and businesses.",
     "hero.cta1":       "View my projects",
     "hero.cta2":       "Contact me",
@@ -171,15 +171,15 @@ const translations = {
 
     "formation.label":   "Education",
     "formation.title":   "My journey",
-    "formation.date1":   "2023 — Ongoing",
-    "formation.school1": "School / University name · City",
+    "formation.date1":   "2026 — Ongoing",
+    "formation.school1": "ITS ICT PIEMONTE · Turin",
     "formation.desc1":   "In-depth training in web solution architecture, distributed systems design, project management and full-stack development. Final project: G-360.",
-    "formation.degree2": "Bachelor's / BTS — to customize",
-    "formation.school2": "Institution name · City",
-    "formation.desc2":   "Foundational IT training. Acquired core skills in web development, object-oriented programming and databases.",
-    "formation.degree3": "High school diploma — to customize",
-    "formation.school3": "High school · City",
-    "formation.desc3":   "Grade: to fill in. Stream: to fill in.",
+    "formation.degree2": "Bachelor's in Computer Science applied to Business Management",
+    "formation.school2": "ISM · Dakar",
+    "formation.desc2":   "Versatile training covering IT fundamentals, project management, information systems and databases, with a business-oriented approach.",
+    "formation.degree3": "High school diploma in Mathematical Sciences",
+    "formation.school3": "CL-PN · Pointe-Noire",
+    "formation.desc3":   "Grade: Pass. Stream: C.",
 
     "contact.label":    "Contact",
     "contact.title":    "Let's work together",
@@ -198,9 +198,9 @@ const translations = {
   }
 };
 
-// -----------------------
+
 //  MOTEUR I18N
-// ------------------------
+
 let currentLang = 'fr';
 
 function applyLang(lang) {
@@ -244,9 +244,9 @@ const init = saved || (['fr','it','en'].includes(browser) ? browser : 'fr');
 applyLang(init);
 
 
-// -----------------------
+
 //  SCROLL ANIMATIONS
-// -----------------------
+
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(e => {
     if (e.isIntersecting) {
@@ -259,9 +259,9 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
 
 
-// -----------------------
+
 //  FORMULAIRE DE CONTACT
-// -----------------------
+
 function handleSubmit() {
   const name    = document.getElementById('name').value.trim();
   const email   = document.getElementById('email').value.trim();
@@ -293,9 +293,9 @@ function handleSubmit() {
 }
 
 
-// -----------------------
+
 //  NAV ACTIVE AU SCROLL
-// -----------------------
+
 const sections = document.querySelectorAll('section[id]');
 const navLinks  = document.querySelectorAll('.nav-links a');
 
