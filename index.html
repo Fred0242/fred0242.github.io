@@ -1,369 +1,503 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Portfolio — Web Solution Architect</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-
-<!-- ── NAVIGATION ── -->
-<nav>
-  <a href="#hero" class="nav-logo">MADZOU</a>
-  <ul class="nav-links">
-    <li><a href="#about"     data-i18n="nav.about">À propos</a></li>
-    <li><a href="#skills"    data-i18n="nav.skills">Compétences</a></li>
-    <li><a href="#projects"  data-i18n="nav.projects">Projets</a></li>
-    <li><a href="#formation" data-i18n="nav.formation">Formation</a></li>
-    <li><a href="#contact"   data-i18n="nav.contact">Contact</a></li>
-  </ul>
-  <div class="lang-switcher">
-    <button class="lang-btn active" data-lang="fr"><i class="fa-solid fa-globe"></i> FR</button>
-    <button class="lang-btn"        data-lang="it"><i class="fa-solid fa-globe"></i> IT</button>
-    <button class="lang-btn"        data-lang="en"><i class="fa-solid fa-globe"></i> EN</button>
-  </div>
-</nav>
-
-<!-- ── HERO ── -->
-<section id="hero">
-  <div class="hero-bg-line"></div>
-  <div class="hero-grid-dec"></div>
-  <div class="hero-content">
-    <p class="hero-eyebrow">Web Solution Architect</p>
-    <h1 data-i18n="hero.title">Bonjour, je suis<br /><em>Frédéric Franchir</em></h1>
-    <p class="hero-desc" data-i18n="hero.desc">
-      Étudiant passionné en architecture de solutions web, je conçois des
-      applications robustes et scalables qui répondent aux vrais besoins
-      des utilisateurs et des entreprises.
-    </p>
-    <div class="hero-cta">
-      <a href="#projects" class="btn-primary" data-i18n="hero.cta1">Voir mes projets</a>
-      <a href="#contact"  class="btn-outline"  data-i18n="hero.cta2">Me contacter</a>
-    </div>
-  </div>
-</section>
-
-<!-- ── À PROPOS ── -->
-<section id="about">
-  <div class="fade-up">
-    <p class="section-label" data-i18n="about.label">À propos</p>
-    <h2 data-i18n="about.title">Qui suis-je ?</h2>
-  </div>
-  <div class="about-grid fade-up">
-    <div class="about-avatar-wrap">
-      <div class="about-avatar">
-        <img src="assets/photo.png" alt="Frédéric Franchir Madzou" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio — Web Solution Architect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ── NAVIGATION ── -->
+    <nav>
+      <a href="#hero" class="nav-logo">MADZOU</a>
+      <ul class="nav-links">
+        <li><a href="#about" data-i18n="nav.about">À propos</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Compétences</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projets</a></li>
+        <li><a href="#formation" data-i18n="nav.formation">Formation</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="fr">
+          <i class="fa-solid fa-globe"></i> FR
+        </button>
+        <button class="lang-btn" data-lang="it">
+          <i class="fa-solid fa-globe"></i> IT
+        </button>
+        <button class="lang-btn" data-lang="en">
+          <i class="fa-solid fa-globe"></i> EN
+        </button>
       </div>
-      <div class="about-avatar-dec"></div>
-    </div>
-    <div class="about-text">
-      <p data-i18n="about.p1">
-        Actuellement en formation en <strong>Architecture de solutions web</strong>
-        à l'ITS ICT Piemonte (Torino), je m'intéresse à la conception d'applications
-        complètes, de la définition de l'architecture technique jusqu'au déploiement
-        en production.
-      </p>
-      <p data-i18n="about.p2">
-        J'ai développé deux projets concrets : <strong>G-360</strong>, une application
-        de gestion commerciale pour PME, et <strong>La Conoscenza</strong>, un site
-        web pour un centre de langue italienne basé à Brazzaville.
-      </p>
-      <p data-i18n="about.p3">
-        Je cherche à mettre en pratique mes compétences dans un environnement
-        professionnel stimulant via un stage, avec pour ambition à long terme
-        d'évoluer vers un rôle <strong>DevOps Engineer</strong>.
-      </p>
-      <div class="about-stats">
+    </nav>
+
+    <!-- ── HERO ── -->
+    <section id="hero">
+      <div class="hero-bg-line"></div>
+      <div class="hero-grid-dec"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Web Solution Architect</p>
+        <h1 data-i18n="hero.title">
+          Bonjour, je suis<br /><em>Frédéric Franchir</em>
+        </h1>
+        <p class="hero-desc" data-i18n="hero.desc">
+          Étudiant passionné en architecture de solutions web, je conçois des
+          applications robustes et scalables qui répondent aux vrais besoins des
+          utilisateurs et des entreprises.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary" data-i18n="hero.cta1"
+            >Voir mes projets</a
+          >
+          <a href="#contact" class="btn-outline" data-i18n="hero.cta2"
+            >Me contacter</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ── À PROPOS ── -->
+    <section id="about">
+      <div class="fade-up">
+        <p class="section-label" data-i18n="about.label">À propos</p>
+        <h2 data-i18n="about.title">Qui suis-je ?</h2>
+      </div>
+      <div class="about-grid fade-up">
+        <div class="about-avatar-wrap">
+          <div class="about-avatar">
+            <img src="assets/photo.png" alt="Frédéric Franchir Madzou" />
+          </div>
+          <div class="about-avatar-dec"></div>
+        </div>
+        <div class="about-text">
+          <p data-i18n="about.p1">
+            Actuellement en formation en
+            <strong>Architecture de solutions web</strong>
+            à l'ITS ICT Piemonte (Torino), je m'intéresse à la conception
+            d'applications complètes, de la définition de l'architecture
+            technique jusqu'au déploiement en production.
+          </p>
+          <p data-i18n="about.p2">
+            J'ai développé deux projets concrets : <strong>G-360</strong>, une
+            application de gestion commerciale pour PME, et
+            <strong>La Conoscenza</strong>, un site web pour un centre de langue
+            italienne basé à Brazzaville.
+          </p>
+          <p data-i18n="about.p3">
+            Je cherche à mettre en pratique mes compétences dans un
+            environnement professionnel stimulant via un stage, avec pour
+            ambition à long terme d'évoluer vers un rôle
+            <strong>DevOps Engineer</strong>.
+          </p>
+          <div class="about-stats">
+            <div>
+              <span class="stat-num">2</span>
+              <span class="stat-label" data-i18n="about.stat1"
+                >Projets livrés</span
+              >
+            </div>
+            <div>
+              <span class="stat-num">3+</span>
+              <span class="stat-label" data-i18n="about.stat2"
+                >Ans d'études</span
+              >
+            </div>
+            <div>
+              <span class="stat-num">∞</span>
+              <span class="stat-label" data-i18n="about.stat3">Curiosité</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── COMPÉTENCES ── -->
+    <section id="skills">
+      <div class="fade-up">
+        <p class="section-label" data-i18n="skills.label">Compétences</p>
+        <h2 data-i18n="skills.title">Mon arsenal technique</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><i class="fa-solid fa-sitemap"></i></div>
+          <p class="skill-title" data-i18n="skills.card1">
+            Architecture & Conception
+          </p>
+          <div class="skill-tags">
+            <span class="tag accent">UML</span
+            ><span class="tag accent">MVC</span>
+            <span class="tag accent">REST API</span
+            ><span class="tag">Microservices</span>
+            <span class="tag">Design Patterns</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><i class="fa-solid fa-display"></i></div>
+          <p class="skill-title">Front-end</p>
+          <div class="skill-tags">
+            <span class="tag accent">HTML5</span
+            ><span class="tag accent">CSS3</span>
+            <span class="tag accent">JavaScript</span>
+            <span class="tag">Responsive Design</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
+          <p class="skill-title">Back-end</p>
+          <div class="skill-tags">
+            <span class="tag accent">Python</span
+            ><span class="tag accent">Django</span> <span class="tag">PHP</span
+            ><span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
+          <p class="skill-title" data-i18n="skills.card4">Bases de données</p>
+          <div class="skill-tags">
+            <span class="tag accent">MySQL</span
+            ><span class="tag accent">PostgreSQL</span>
+            <span class="tag">MongoDB</span><span class="tag">SQL</span>
+            <span class="tag" data-i18n="skills.modeling">Modélisation</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><i class="fa-solid fa-cloud"></i></div>
+          <p class="skill-title">DevOps & Cloud</p>
+          <div class="skill-tags">
+            <span class="tag accent">Git</span
+            ><span class="tag accent">GitHub</span>
+            <span class="tag">Docker</span><span class="tag">CI/CD</span>
+            <span class="tag">Linux</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-up">
+          <div class="skill-icon"><i class="fa-solid fa-pen-nib"></i></div>
+          <p class="skill-title" data-i18n="skills.card6">Design & Outils</p>
+          <div class="skill-tags">
+            <span class="tag accent">Adobe Photoshop</span>
+            <span class="tag accent">Canva</span>
+            <span class="tag">UI/UX</span>
+            <span class="tag">Figma</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── PROJETS ── -->
+    <section id="projects">
+      <div class="fade-up">
+        <p class="section-label" data-i18n="projects.label">Projets</p>
+        <h2 data-i18n="projects.title">Ce que j'ai construit</h2>
+      </div>
+
+      <!-- PROJET 1 : G-360 -->
+      <div class="project-card fade-up">
+        <div class="project-visual">
+          <img src="assets/Dashboard.jpg" alt="Dashboard G-360" />
+        </div>
+        <div class="project-info">
+          <p class="project-tag" data-i18n="p1.tag">
+            Application Web · Gestion commerciale
+          </p>
+          <h3 class="project-title" data-i18n="p1.title">
+            G-360 — Gestion commerciale pour PME
+          </h3>
+          <p class="project-desc" data-i18n="p1.desc">
+            Application web complète dédiée aux PME pour centraliser leur
+            gestion commerciale : suivi des clients, devis, factures, tableau de
+            bord analytique et reporting. Conçue avec une architecture modulaire
+            pour une maintenabilité optimale.
+          </p>
+          <div class="project-tech">
+            <span class="tag accent">Architecture MVC</span>
+            <span class="tag accent">Dashboard</span>
+            <span class="tag">Python / Django</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">Responsive</span>
+          </div>
+          <div class="project-links">
+            <a
+              href="https://github.com/Fred0242/g360_gestion_commerciale"
+              class="project-link"
+              target="_blank"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                />
+              </svg>
+              <span data-i18n="projects.github">Voir sur GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROJET 2 : LA CONOSCENZA -->
+      <div class="project-card project-card--reverse fade-up">
+        <div class="project-visual project-visual--green">
+          <img
+            src="assets/laconoscenza.png"
+            alt="La Conoscenza — Centre de langue italienne"
+          />
+        </div>
+        <div class="project-info">
+          <p class="project-tag" data-i18n="p2.tag">
+            Site Web · Centre de langue
+          </p>
+          <h3 class="project-title" data-i18n="p2.title">
+            La Conoscenza — Centre de langue italienne
+          </h3>
+          <p class="project-desc" data-i18n="p2.desc">
+            Site vitrine complet pour un centre de langue italienne basé à
+            Brazzaville, offrant des cours, des certifications CILS B2 et un
+            accompagnement pour les universités italiennes. Design professionnel
+            avec formulaire de contact et structure multipage.
+          </p>
+          <div class="project-tech">
+            <span class="tag accent">HTML5</span>
+            <span class="tag accent">CSS3</span>
+            <span class="tag accent">JavaScript</span>
+            <span class="tag">Responsive Design</span>
+            <span class="tag">UI/UX</span>
+          </div>
+          <div class="project-links">
+            <a
+              href="https://github.com/Fred0242"
+              class="project-link"
+              target="_blank"
+            >
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                />
+              </svg>
+              <span data-i18n="projects.github">Voir sur GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FORMATION ── -->
+    <section id="formation">
+      <div class="fade-up">
+        <p class="section-label" data-i18n="formation.label">Formation</p>
+        <h2 data-i18n="formation.title">Mon parcours</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item fade-up">
+          <p class="timeline-date" data-i18n="formation.date1">
+            2026 — En cours
+          </p>
+          <h3 class="timeline-title">Web Solution Architect</h3>
+          <p class="timeline-sub" data-i18n="formation.school1">
+            ITS ICT PIEMONTE · Torino
+          </p>
+          <p class="timeline-desc" data-i18n="formation.desc1">
+            Cours biennal post-diplôme axé sur la conception et l'implémentation
+            d'architectures web complexes, scalables et sécurisées. Technologies
+            web, bases de données, intégration de services. Diplôme reconnu au
+            niveau européen (5e niveau EQF).
+          </p>
+        </div>
+
+        <div class="timeline-item fade-up">
+          <p class="timeline-date">
+            2025 — <span data-i18n="formation.ongoing">En cours</span>
+          </p>
+          <h3 class="timeline-title" data-i18n="formation.degree2">
+            Laurea in Informatica Gestionale
+          </h3>
+          <p class="timeline-sub" data-i18n="formation.school2">
+            ISM · Dakar (percorso online)
+          </p>
+          <p class="timeline-desc" data-i18n="formation.desc2">
+            Formation axée sur l'intégration entre informatique et gestion
+            d'entreprise. Systèmes d'information, gestion de données, analyse de
+            processus métier et développement de solutions digitales orientées
+            business.
+          </p>
+        </div>
+
+        <div class="timeline-item fade-up">
+          <p class="timeline-date">2019 — 2021</p>
+          <h3 class="timeline-title" data-i18n="formation.degree3">
+            Baccalauréat en sciences économiques
+          </h3>
+          <p class="timeline-sub" data-i18n="formation.school3">
+            CL-PN · Pointe-Noire, Congo
+          </p>
+          <p class="timeline-desc" data-i18n="formation.desc3">Série BG.</p>
+        </div>
+
+        <div class="timeline-item fade-up">
+          <p class="timeline-date">2019 — 2021</p>
+          <h3 class="timeline-title" data-i18n="formation.degree4">
+            Baccalauréat en sciences mathématiques
+          </h3>
+          <p class="timeline-sub" data-i18n="formation.school4">
+            Lycée Jean Baptiste Taty Loutard · Pointe-Noire, Congo
+          </p>
+          <p class="timeline-desc" data-i18n="formation.desc4">Série C.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact">
+      <div class="fade-up">
+        <p class="section-label" data-i18n="contact.label">Contact</p>
+        <h2 data-i18n="contact.title">Travaillons ensemble</h2>
+      </div>
+      <div class="contact-grid fade-up">
         <div>
-          <span class="stat-num">2</span>
-          <span class="stat-label" data-i18n="about.stat1">Projets livrés</span>
+          <p class="contact-intro" data-i18n="contact.intro">
+            Ouvert aux opportunités de stage, d'alternance ou de collaboration
+            sur des projets ambitieux. N'hésite pas à me laisser un message !
+          </p>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                />
+              </svg>
+            </div>
+            <div class="contact-text">
+              <strong>Email</strong>
+              <a href="mailto:itachimadzou@gmail.com">itachimadzou@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"
+                />
+              </svg>
+            </div>
+            <div class="contact-text">
+              <strong data-i18n="contact.phone">Téléphone</strong>
+              <a href="tel:+393936794737">+39 393 679 4737</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"
+                />
+              </svg>
+            </div>
+            <div class="contact-text">
+              <strong>GitHub</strong>
+              <a href="https://github.com/Fred0242" target="_blank"
+                >github.com/Fred0242</a
+              >
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24">
+                <path
+                  d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                />
+              </svg>
+            </div>
+            <div class="contact-text">
+              <strong data-i18n="contact.location">Localisation</strong>
+              <span>Torino, Italia</span>
+            </div>
+          </div>
         </div>
+
         <div>
-          <span class="stat-num">3+</span>
-          <span class="stat-label" data-i18n="about.stat2">Ans d'études</span>
-        </div>
-        <div>
-          <span class="stat-num">∞</span>
-          <span class="stat-label" data-i18n="about.stat3">Curiosité</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ── COMPÉTENCES ── -->
-<section id="skills">
-  <div class="fade-up">
-    <p class="section-label" data-i18n="skills.label">Compétences</p>
-    <h2 data-i18n="skills.title">Mon arsenal technique</h2>
-  </div>
-  <div class="skills-grid">
-
-    <div class="skill-card fade-up">
-      <div class="skill-icon"><i class="fa-solid fa-sitemap"></i></div>
-      <p class="skill-title" data-i18n="skills.card1">Architecture & Conception</p>
-      <div class="skill-tags">
-        <span class="tag accent">UML</span><span class="tag accent">MVC</span>
-        <span class="tag accent">REST API</span><span class="tag">Microservices</span>
-        <span class="tag">Design Patterns</span>
-      </div>
-    </div>
-
-    <div class="skill-card fade-up">
-      <div class="skill-icon"><i class="fa-solid fa-display"></i></div>
-      <p class="skill-title">Front-end</p>
-      <div class="skill-tags">
-        <span class="tag accent">HTML5</span><span class="tag accent">CSS3</span>
-        <span class="tag accent">JavaScript</span>
-        <span class="tag">Responsive Design</span>
-      </div>
-    </div>
-
-    <div class="skill-card fade-up">
-      <div class="skill-icon"><i class="fa-solid fa-server"></i></div>
-      <p class="skill-title">Back-end</p>
-      <div class="skill-tags">
-        <span class="tag accent">Python</span><span class="tag accent">Django</span>
-        <span class="tag">PHP</span><span class="tag">Node.js</span>
-        <span class="tag">Express</span>
-      </div>
-    </div>
-
-    <div class="skill-card fade-up">
-      <div class="skill-icon"><i class="fa-solid fa-database"></i></div>
-      <p class="skill-title" data-i18n="skills.card4">Bases de données</p>
-      <div class="skill-tags">
-        <span class="tag accent">MySQL</span><span class="tag accent">PostgreSQL</span>
-        <span class="tag">MongoDB</span><span class="tag">SQL</span>
-        <span class="tag" data-i18n="skills.modeling">Modélisation</span>
-      </div>
-    </div>
-
-    <div class="skill-card fade-up">
-      <div class="skill-icon"><i class="fa-solid fa-cloud"></i></div>
-      <p class="skill-title">DevOps & Cloud</p>
-      <div class="skill-tags">
-        <span class="tag accent">Git</span><span class="tag accent">GitHub</span>
-        <span class="tag">Docker</span><span class="tag">CI/CD</span>
-        <span class="tag">Linux</span>
-      </div>
-    </div>
-
-    <div class="skill-card fade-up">
-      <div class="skill-icon"><i class="fa-solid fa-pen-nib"></i></div>
-      <p class="skill-title" data-i18n="skills.card6">Design & Outils</p>
-      <div class="skill-tags">
-        <span class="tag accent">Adobe Photoshop</span>
-        <span class="tag accent">Canva</span>
-        <span class="tag">UI/UX</span>
-        <span class="tag">Figma</span>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ── PROJETS ── -->
-<section id="projects">
-  <div class="fade-up">
-    <p class="section-label" data-i18n="projects.label">Projets</p>
-    <h2 data-i18n="projects.title">Ce que j'ai construit</h2>
-  </div>
-
-  <!-- PROJET 1 : G-360 -->
-  <div class="project-card fade-up">
-    <div class="project-visual">
-      <img src="assets/Dashboard.jpg" alt="Dashboard G-360" />
-    </div>
-    <div class="project-info">
-      <p class="project-tag" data-i18n="p1.tag">Application Web · Gestion commerciale</p>
-      <h3 class="project-title" data-i18n="p1.title">G-360 — Gestion commerciale pour PME</h3>
-      <p class="project-desc" data-i18n="p1.desc">
-        Application web complète dédiée aux PME pour centraliser leur gestion commerciale :
-        suivi des clients, devis, factures, tableau de bord analytique et reporting.
-        Conçue avec une architecture modulaire pour une maintenabilité optimale.
-      </p>
-      <div class="project-tech">
-        <span class="tag accent">Architecture MVC</span>
-        <span class="tag accent">Dashboard</span>
-        <span class="tag">Python / Django</span>
-        <span class="tag">PostgreSQL</span>
-        <span class="tag">Responsive</span>
-      </div>
-      <div class="project-links">
-        <a href="https://github.com/Fred0242/g360_gestion_commerciale" class="project-link" target="_blank">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
-          </svg>
-          <span data-i18n="projects.github">Voir sur GitHub</span>
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- PROJET 2 : LA CONOSCENZA -->
-  <div class="project-card project-card--reverse fade-up">
-    <div class="project-visual project-visual--green">
-      <img src="assets/laconoscenza.png" alt="La Conoscenza — Centre de langue italienne" />
-    </div>
-    <div class="project-info">
-      <p class="project-tag" data-i18n="p2.tag">Site Web · Centre de langue</p>
-      <h3 class="project-title" data-i18n="p2.title">La Conoscenza — Centre de langue italienne</h3>
-      <p class="project-desc" data-i18n="p2.desc">
-        Site vitrine complet pour un centre de langue italienne basé à Brazzaville,
-        offrant des cours, des certifications CILS B2 et un accompagnement pour
-        les universités italiennes. Design professionnel avec formulaire de contact
-        et structure multipage.
-      </p>
-      <div class="project-tech">
-        <span class="tag accent">HTML5</span>
-        <span class="tag accent">CSS3</span>
-        <span class="tag accent">JavaScript</span>
-        <span class="tag">Responsive Design</span>
-        <span class="tag">UI/UX</span>
-      </div>
-      <div class="project-links">
-        <a href="https://github.com/Fred0242" class="project-link" target="_blank">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
-          </svg>
-          <span data-i18n="projects.github">Voir sur GitHub</span>
-        </a>
-      </div>
-    </div>
-  </div>
-
-</section>
-
-<!-- ── FORMATION ── -->
-<section id="formation">
-  <div class="fade-up">
-    <p class="section-label" data-i18n="formation.label">Formation</p>
-    <h2 data-i18n="formation.title">Mon parcours</h2>
-  </div>
-  <div class="timeline">
-
-    <div class="timeline-item fade-up">
-      <p class="timeline-date" data-i18n="formation.date1">2026 — En cours</p>
-      <h3 class="timeline-title">Web Solution Architect</h3>
-      <p class="timeline-sub" data-i18n="formation.school1">ITS ICT PIEMONTE · Torino</p>
-      <p class="timeline-desc" data-i18n="formation.desc1">
-        Cours biennal post-diplôme axé sur la conception et l'implémentation
-        d'architectures web complexes, scalables et sécurisées. Technologies web,
-        bases de données, intégration de services. Diplôme reconnu au niveau
-        européen (5e niveau EQF).
-      </p>
-    </div>
-
-    <div class="timeline-item fade-up">
-      <p class="timeline-date">2025 — <span data-i18n="formation.ongoing">En cours</span></p>
-      <h3 class="timeline-title" data-i18n="formation.degree2">Laurea in Informatica Gestionale</h3>
-      <p class="timeline-sub" data-i18n="formation.school2">ISM · Dakar (percorso online)</p>
-      <p class="timeline-desc" data-i18n="formation.desc2">
-        Formation axée sur l'intégration entre informatique et gestion d'entreprise.
-        Systèmes d'information, gestion de données, analyse de processus métier
-        et développement de solutions digitales orientées business.
-      </p>
-    </div>
-
-    <div class="timeline-item fade-up">
-      <p class="timeline-date">2019 — 2021</p>
-      <h3 class="timeline-title" data-i18n="formation.degree3">Baccalauréat en sciences économiques</h3>
-      <p class="timeline-sub" data-i18n="formation.school3">CL-PN · Pointe-Noire, Congo</p>
-      <p class="timeline-desc" data-i18n="formation.desc3">Série C.</p>
-    </div>
-
-  </div>
-</section>
-
-<!-- ── CONTACT ── -->
-<section id="contact">
-  <div class="fade-up">
-    <p class="section-label" data-i18n="contact.label">Contact</p>
-    <h2 data-i18n="contact.title">Travaillons ensemble</h2>
-  </div>
-  <div class="contact-grid fade-up">
-    <div>
-      <p class="contact-intro" data-i18n="contact.intro">
-        Ouvert aux opportunités de stage, d'alternance ou de collaboration
-        sur des projets ambitieux. N'hésite pas à me laisser un message !
-      </p>
-      <div class="contact-item">
-        <div class="contact-icon">
-          <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-        </div>
-        <div class="contact-text">
-          <strong>Email</strong>
-          <a href="mailto:itachimadzou@gmail.com">itachimadzou@gmail.com</a>
+          <div class="contact-form">
+            <div class="form-group">
+              <label for="name" data-i18n="contact.fname">Votre nom</label>
+              <input
+                type="text"
+                id="name"
+                data-i18n-ph="contact.pname"
+                placeholder="Mario Rossi"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email" data-i18n="contact.femail">Votre email</label>
+              <input
+                type="email"
+                id="email"
+                data-i18n-ph="contact.pemail"
+                placeholder="mario@exemple.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="subject" data-i18n="contact.fsubject">Sujet</label>
+              <input
+                type="text"
+                id="subject"
+                data-i18n-ph="contact.psubject"
+                placeholder="Proposition de stage..."
+              />
+            </div>
+            <div class="form-group">
+              <label for="message" data-i18n="contact.fmessage">Message</label>
+              <textarea
+                id="message"
+                data-i18n-ph="contact.pmessage"
+                placeholder="Bonjour, je souhaite..."
+              ></textarea>
+            </div>
+            <button
+              class="form-submit"
+              onclick="handleSubmit()"
+              data-i18n="contact.send"
+            >
+              Envoyer le message
+            </button>
+            <div
+              class="form-success"
+              id="formSuccess"
+              data-i18n="contact.success"
+            >
+              ✓ Merci pour votre message ! Je vous répondrai très prochainement.
+            </div>
+          </div>
         </div>
       </div>
-      <div class="contact-item">
-        <div class="contact-icon">
-          <svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
-        </div>
-        <div class="contact-text">
-          <strong data-i18n="contact.phone">Téléphone</strong>
-          <a href="tel:+393936794737">+39 393 679 4737</a>
-        </div>
-      </div>
-      <div class="contact-item">
-        <div class="contact-icon">
-          <svg viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
-        </div>
-        <div class="contact-text">
-          <strong>GitHub</strong>
-          <a href="https://github.com/Fred0242" target="_blank">github.com/Fred0242</a>
-        </div>
-      </div>
-      <div class="contact-item">
-        <div class="contact-icon">
-          <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
-        </div>
-        <div class="contact-text">
-          <strong data-i18n="contact.location">Localisation</strong>
-          <span>Torino, Italia</span>
-        </div>
-      </div>
-    </div>
+    </section>
 
-    <div>
-      <div class="contact-form">
-        <div class="form-group">
-          <label for="name"    data-i18n="contact.fname">Votre nom</label>
-          <input type="text"  id="name"    data-i18n-ph="contact.pname"    placeholder="Mario Rossi" />
-        </div>
-        <div class="form-group">
-          <label for="email"   data-i18n="contact.femail">Votre email</label>
-          <input type="email" id="email"   data-i18n-ph="contact.pemail"   placeholder="mario@exemple.com" />
-        </div>
-        <div class="form-group">
-          <label for="subject" data-i18n="contact.fsubject">Sujet</label>
-          <input type="text"  id="subject" data-i18n-ph="contact.psubject" placeholder="Proposition de stage..." />
-        </div>
-        <div class="form-group">
-          <label for="message" data-i18n="contact.fmessage">Message</label>
-          <textarea id="message" data-i18n-ph="contact.pmessage" placeholder="Bonjour, je souhaite..."></textarea>
-        </div>
-        <button class="form-submit" onclick="handleSubmit()" data-i18n="contact.send">Envoyer le message</button>
-        <div class="form-success" id="formSuccess" data-i18n="contact.success">
-          ✓ Merci pour votre message ! Je vous répondrai très prochainement.
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+    <!-- ── FOOTER ── -->
+    <footer>
+      <span>© 2026 Frédéric Franchir Madzou · Web Solution Architect</span>
+      <a href="https://github.com/Fred0242" target="_blank">GitHub</a>
+    </footer>
 
-<!-- ── FOOTER ── -->
-<footer>
-  <span>© 2026 Frédéric Franchir Madzou · Web Solution Architect</span>
-  <a href="https://github.com/Fred0242" target="_blank">GitHub</a>
-</footer>
-
-<script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
