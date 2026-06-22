@@ -1,4 +1,4 @@
-// ── TERMINAL ANIMATION ───────────────────────────────────────────────────────
+//  TERMINAL ANIMATION 
 
 const TERM_LINES = [
   { type: 'cmd',   text: 'whoami' },
@@ -87,7 +87,27 @@ async function runTerminal() {
 
 runTerminal();
 
-// ── TRADUCTIONS — FR / IT / EN ────────────────────────────────────────────────
+// ── SLIDESHOWS ────────────────────────────────────────────────────────────────
+
+function initSlideshow(id, intervalMs) {
+  const container = document.getElementById(id);
+  if (!container) return;
+  const slides = Array.from(container.querySelectorAll('.slide'));
+  const dots   = Array.from(container.querySelectorAll('.slide-dot'));
+  let current  = 0;
+
+  setInterval(() => {
+    slides[current].classList.remove('active');
+    dots[current].classList.remove('active');
+    current = (current + 1) % slides.length;
+    slides[current].classList.add('active');
+    dots[current].classList.add('active');
+  }, intervalMs);
+}
+
+initSlideshow('vinSlides', 3000);
+
+//  TRADUCTIONS — FR / IT / EN
 
 const translations = {
   fr: {
@@ -400,7 +420,7 @@ const translations = {
   },
 };
 
-// ── MOTEUR I18N ───────────────────────────────────────────────────────────────
+//  MOTEUR I18N 
 
 let currentLang = "fr";
 
@@ -436,7 +456,7 @@ const browser = navigator.language?.slice(0, 2);
 const init = saved || (["fr", "it", "en"].includes(browser) ? browser : "fr");
 applyLang(init);
 
-// ── NAV SCROLL ────────────────────────────────────────────────────────────────
+//  NAV SCROLL 
 
 const nav = document.getElementById('nav');
 
@@ -453,7 +473,7 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// ── SCROLL ANIMATIONS ─────────────────────────────────────────────────────────
+//  SCROLL ANIMATIONS 
 
 const observer = new IntersectionObserver(
   (entries) => {
@@ -469,7 +489,7 @@ const observer = new IntersectionObserver(
 
 document.querySelectorAll(".fade-up").forEach((el) => observer.observe(el));
 
-// ── FORMULAIRE DE CONTACT ─────────────────────────────────────────────────────
+//FORMULAIRE DE CONTACT 
 
 function handleSubmit() {
   const name = document.getElementById("name").value.trim();
