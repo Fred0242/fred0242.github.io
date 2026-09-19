@@ -200,10 +200,6 @@ const translations = {
     "contact.femail": "Votre email",
     "contact.fsubject": "Sujet",
     "contact.fmessage": "Message",
-    "contact.pname": "Jean Dupont",
-    "contact.pemail": "jean@exemple.com",
-    "contact.psubject": "Proposition de stage / Collaboration...",
-    "contact.pmessage": "Bonjour, je souhaite...",
     "contact.send": "Envoyer le message",
     "contact.success": "✓ Merci pour votre message ! Je vous répondrai très prochainement.",
   },
@@ -298,10 +294,6 @@ const translations = {
     "contact.femail": "La tua email",
     "contact.fsubject": "Oggetto",
     "contact.fmessage": "Messaggio",
-    "contact.pname": "Mario Rossi",
-    "contact.pemail": "mario@esempio.com",
-    "contact.psubject": "Proposta di stage / Collaborazione...",
-    "contact.pmessage": "Buongiorno, vorrei...",
     "contact.send": "Invia messaggio",
     "contact.success": "✓ Grazie per il tuo messaggio! Ti risponderò al più presto.",
   },
@@ -396,10 +388,6 @@ const translations = {
     "contact.femail": "Your email",
     "contact.fsubject": "Subject",
     "contact.fmessage": "Message",
-    "contact.pname": "John Doe",
-    "contact.pemail": "john@example.com",
-    "contact.psubject": "Internship proposal / Collaboration...",
-    "contact.pmessage": "Hello, I would like to...",
     "contact.send": "Send message",
     "contact.success": "✓ Thank you for your message! I will reply very soon.",
   },
@@ -418,11 +406,6 @@ function applyLang(lang) {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     if (t[key] !== undefined) el.innerHTML = t[key];
-  });
-
-  document.querySelectorAll("[data-i18n-ph]").forEach((el) => {
-    const key = el.getAttribute("data-i18n-ph");
-    if (t[key] !== undefined) el.placeholder = t[key];
   });
 
   document.querySelectorAll(".lang-btn").forEach((btn) => {
