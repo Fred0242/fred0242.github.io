@@ -336,7 +336,6 @@ section { padding: 6rem 6%; }
 .section-label {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.72rem;
   font-weight: 400;
@@ -344,14 +343,6 @@ section { padding: 6rem 6%; }
   text-transform: uppercase;
   color: var(--blue);
   margin-bottom: 0.75rem;
-}
-.section-label::before {
-  content: '';
-  display: block;
-  width: 20px;
-  height: 1px;
-  background: var(--blue);
-  flex-shrink: 0;
 }
 
 /* ABOUT */
