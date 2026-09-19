@@ -12,7 +12,7 @@ const TERM_LINES = [
   { type: 'blank' },
   { type: 'cmd',   text: 'ls projects/' },
   { type: 'out',   html: '<span class="t-blue">G-360/</span>          <span class="t-blue">La-Conoscenza/</span>' },
-  { type: 'out',   html: '<span class="t-blue">Vinted-Monitor/</span>  <span class="t-blue">LinguaLab/</span>  <span class="t-blue">BlueHarbor/</span>' },
+  { type: 'out',   html: '<span class="t-blue">Vinted-Monitor/</span>  <span class="t-blue">ItaLab/</span>' },
   { type: 'blank' },
   { type: 'cmd',   text: 'echo $STATUS' },
   { type: 'out',   html: '<span class="t-green">Disponible · stage / apprendistato ✓</span>' },
@@ -129,7 +129,7 @@ const translations = {
     "about.p1":
       "Actuellement en formation en <strong>Architecture de solutions web</strong> à l'ITS ICT Piemonte (Torino), je m'intéresse à la conception d'applications complètes, de la définition de l'architecture technique jusqu'au déploiement en production.",
     "about.p2":
-      "J'ai développé cinq projets concrets : <strong>G-360</strong>, une application de gestion commerciale pour PME, <strong>La Conoscenza</strong>, un site pour un centre de langue italienne, ainsi que <strong>Vinted Monitor</strong>, <strong>LinguaLab</strong> et <strong>BlueHarbor</strong>.",
+      "J'ai développé quatre projets concrets : <strong>G-360</strong>, une application de gestion commerciale pour PME, <strong>La Conoscenza</strong>, un site pour un centre de langue italienne, <strong>Vinted Monitor</strong> et <strong>ItaLab</strong>.",
     "about.p3":
       "Je cherche à mettre en pratique mes compétences dans un environnement professionnel stimulant via un stage, avec pour ambition à long terme d'évoluer vers un rôle <strong>DevOps Engineer</strong>.",
     "about.stat1": "Projets livrés",
@@ -167,15 +167,10 @@ const translations = {
     "p3.desc":
       "Outil de veille automatique sur Vinted. Surveille les annonces en temps réel par mots-clés et critères de prix, puis envoie des alertes instantanées.",
 
-    "p4.tag": "Éducation · Web App",
-    "p4.title": "LinguaLab",
+    "p4.tag": "Plateforme Web · Simulation d'examen",
+    "p4.title": "ItaLab",
     "p4.desc":
-      "Application web d'apprentissage des langues avec modules de vocabulaire interactifs, exercices grammaticaux et suivi de progression personnalisé.",
-
-    "p5.tag": "Application Web",
-    "p5.title": "BlueHarbor",
-    "p5.desc":
-      "Plateforme web moderne avec interface épurée, conçue pour offrir une expérience utilisateur fluide et des fonctionnalités robustes.",
+      "Plateforme bilingue (français/italien) de simulation et d'entraînement au test de langue italienne ITA-L2 pour les candidats de Brazzaville. Inscription aux sessions, paiement Mobile Money, examen chronométré en ligne et rapport de résultats détaillé.",
 
     "formation.label": "Formation",
     "formation.title": "Mon parcours",
@@ -232,7 +227,7 @@ const translations = {
     "about.p1":
       "Attualmente in formazione in <strong>Architettura di soluzioni web</strong> presso ITS ICT Piemonte (Torino), mi interesso alla progettazione di applicazioni complete, dalla definizione dell'architettura tecnica fino al deploy in produzione.",
     "about.p2":
-      "Ho sviluppato cinque progetti concreti: <strong>G-360</strong>, un'applicazione di gestione commerciale per PMI, <strong>La Conoscenza</strong>, un sito per un centro di lingua italiana, oltre a <strong>Vinted Monitor</strong>, <strong>LinguaLab</strong> e <strong>BlueHarbor</strong>.",
+      "Ho sviluppato quattro progetti concreti: <strong>G-360</strong>, un'applicazione di gestione commerciale per PMI, <strong>La Conoscenza</strong>, un sito per un centro di lingua italiana, <strong>Vinted Monitor</strong> e <strong>ItaLab</strong>.",
     "about.p3":
       "Cerco di mettere in pratica le mie competenze in un ambiente professionale stimolante tramite uno stage, con l'obiettivo a lungo termine di evolvermi verso il ruolo di <strong>DevOps Engineer</strong>.",
     "about.stat1": "Progetti consegnati",
@@ -270,15 +265,10 @@ const translations = {
     "p3.desc":
       "Strumento di monitoraggio automatico su Vinted. Sorveglia gli annunci in tempo reale per parole chiave e criteri di prezzo, inviando notifiche istantanee.",
 
-    "p4.tag": "Educazione · Web App",
-    "p4.title": "LinguaLab",
+    "p4.tag": "Piattaforma Web · Simulazione d'esame",
+    "p4.title": "ItaLab",
     "p4.desc":
-      "Applicazione web per l'apprendimento delle lingue con moduli di vocabolario interattivi, esercizi grammaticali e monitoraggio dei progressi.",
-
-    "p5.tag": "Applicazione Web",
-    "p5.title": "BlueHarbor",
-    "p5.desc":
-      "Piattaforma web moderna con interfaccia pulita, progettata per offrire un'esperienza utente fluida e funzionalità robuste.",
+      "Piattaforma bilingue (francese/italiano) di simulazione e allenamento al test di lingua italiana ITA-L2 per i candidati di Brazzaville. Iscrizione alle sessioni, pagamento Mobile Money, esame cronometrato online e rapporto dettagliato dei risultati.",
 
     "formation.label": "Formazione",
     "formation.title": "Il mio percorso",
@@ -335,7 +325,7 @@ const translations = {
     "about.p1":
       "Currently studying <strong>Web Solution Architecture</strong> at ITS ICT Piemonte (Turin), I focus on designing complete applications — from technical architecture to production deployment.",
     "about.p2":
-      "I have developed five concrete projects: <strong>G-360</strong>, a commercial management app for SMEs, <strong>La Conoscenza</strong>, a website for an Italian language centre, along with <strong>Vinted Monitor</strong>, <strong>LinguaLab</strong> and <strong>BlueHarbor</strong>.",
+      "I have developed four concrete projects: <strong>G-360</strong>, a commercial management app for SMEs, <strong>La Conoscenza</strong>, a website for an Italian language centre, <strong>Vinted Monitor</strong> and <strong>ItaLab</strong>.",
     "about.p3":
       "I'm looking to apply my skills in a stimulating professional environment through an internship, with the long-term ambition of evolving into a <strong>DevOps Engineer</strong> role.",
     "about.stat1": "Projects delivered",
@@ -373,15 +363,10 @@ const translations = {
     "p3.desc":
       "Automated monitoring tool for Vinted. Tracks listings in real time by keyword and price criteria, sending instant alerts.",
 
-    "p4.tag": "Education · Web App",
-    "p4.title": "LinguaLab",
+    "p4.tag": "Web Platform · Exam simulation",
+    "p4.title": "ItaLab",
     "p4.desc":
-      "Language learning web application featuring interactive vocabulary modules, grammar exercises and personalised progress tracking.",
-
-    "p5.tag": "Web Application",
-    "p5.title": "BlueHarbor",
-    "p5.desc":
-      "Modern web platform with a clean interface, designed to deliver a smooth user experience and robust features.",
+      "A bilingual (French/Italian) platform to simulate and train for the ITA-L2 Italian language test, for candidates in Brazzaville. Session registration, Mobile Money payment, timed online exam and detailed results report.",
 
     "formation.label": "Education",
     "formation.title": "My journey",
