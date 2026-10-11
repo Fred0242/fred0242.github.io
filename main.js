@@ -202,6 +202,8 @@ const translations = {
     "contact.fmessage": "Message",
     "contact.send": "Envoyer le message",
     "contact.success": "✓ Merci pour votre message ! Je vous répondrai très prochainement.",
+
+    "footer.cv": "Télécharger mon CV",
   },
 
   it: {
@@ -296,6 +298,8 @@ const translations = {
     "contact.fmessage": "Messaggio",
     "contact.send": "Invia messaggio",
     "contact.success": "✓ Grazie per il tuo messaggio! Ti risponderò al più presto.",
+
+    "footer.cv": "Scarica il mio CV",
   },
 
   en: {
@@ -390,6 +394,8 @@ const translations = {
     "contact.fmessage": "Message",
     "contact.send": "Send message",
     "contact.success": "✓ Thank you for your message! I will reply very soon.",
+
+    "footer.cv": "Download my CV",
   },
 };
 
