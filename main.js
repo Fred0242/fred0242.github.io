@@ -117,7 +117,7 @@ const translations = {
     "nav.formation": "Formation",
     "nav.contact": "Contact",
 
-    "hero.badge": "Disponible — stage / apprendistato",
+    "hero.badge": "Disponible stage / apprendistato",
     "hero.title": "Bonjour, je suis<br><em>Frédéric Franchir</em>",
     "hero.desc":
       "Étudiant passionné en architecture de solutions web, je conçois des applications robustes et scalables qui répondent aux vrais besoins des utilisateurs et des entreprises.",
@@ -213,7 +213,7 @@ const translations = {
     "nav.formation": "Formazione",
     "nav.contact": "Contatto",
 
-    "hero.badge": "Disponibile — stage / apprendistato",
+    "hero.badge": "Disponibile stage / apprendistato",
     "hero.title": "Ciao, sono<br><em>Frédéric Franchir</em>",
     "hero.desc":
       "Studente appassionato di architettura di soluzioni web, progetto applicazioni robuste e scalabili che rispondono ai veri bisogni degli utenti e delle aziende.",
@@ -309,7 +309,7 @@ const translations = {
     "nav.formation": "Education",
     "nav.contact": "Contact",
 
-    "hero.badge": "Available — internship / apprenticeship",
+    "hero.badge": "Available internship / apprenticeship",
     "hero.title": "Hello, I'm<br><em>Frédéric Franchir</em>",
     "hero.desc":
       "Passionate student in web solution architecture, I design robust and scalable applications that address the real needs of users and businesses.",
